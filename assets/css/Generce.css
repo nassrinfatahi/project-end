@@ -1,0 +1,26 @@
+.mt-1 {
+    margin-top: 30px;
+}
+
+.mt-2 {
+    margin: 150px 0;
+}
+
+/*main */
+
+.The-Page {
+    text-align: center;
+    background-color: var(--blue-color);
+    color: var(--light-color);
+    padding: 100px 50px;
+}
+
+.The-Page h1 {
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+section p {
+    color: var(--main-color);
+    line-height: 25px;
+}

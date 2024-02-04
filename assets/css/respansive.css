@@ -1,0 +1,897 @@
+/* responsv*/
+
+/* for tablet and smartphones */
+@media (max-width: 767px) {
+    .home-box .picture-about {
+        width: 100%;
+    }
+
+    /*header*/
+    .checkbtn {
+        display: block;
+    }
+
+    #check:checked~ul {
+        left: 0;
+    }
+
+    nav ul {
+        position: fixed;
+        width: 30%;
+        height: 1000vh;
+        background-color: var(--dark-color);
+        top: 50px;
+        left: -100%;
+        transition: all 0.2s;
+    }
+
+    nav ul li a span {
+        color: var(--light-color);
+    }
+
+    .dropdone div {
+        background-color: var(--dark-color);
+    }
+
+    nav ul li {
+        padding: 0;
+        display: block;
+        margin: 20px 0;
+        line-height: 30px;
+    }
+
+    .home-box .picture-p {
+        width: 100%;
+    }
+
+    .home-box .explore {
+        width: 50%;
+    }
+
+    .home-mark .inappropriate {
+        grid-column: 1/-1;
+        grid-row: 2/-1;
+        margin-top: -40px;
+    }
+
+    .home-mark .mark-wiens {
+        font-size: 1rem;
+    }
+
+    .home-mark .mark-wiens,
+    .windows {
+        border-right: 1px solid transparent;
+    }
+
+    .home-mark .windows {
+        margin-top: 30px;
+    }
+
+    .p,
+    .h2 {
+        margin-left: 0px;
+        text-align: center;
+    }
+
+    .h2 {
+        font-size: 1.5rem;
+    }
+
+    .standard,
+    .Business,
+    .Ultimate {
+        grid-column: 1/-1;
+    }
+
+    .card-two,
+    .card-end {
+        text-align: center;
+    }
+
+    .card-end-button {
+        margin-left: 0;
+    }
+
+    /*about*/
+    .about-magnific div {
+        grid-column: 1/-1;
+        grid-row: 1/2;
+    }
+
+    .about-magnific .We-Believe {
+        font-size: 1.5rem;
+    }
+
+    .about-magnific img {
+        grid-row: 2/-1;
+        grid-column: 1/-1;
+    }
+
+    /*SERVICE*/
+    .box-six {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .From-the-root .picture-about {
+        font-size: 1.2rem;
+    }
+
+    .From-the-root .explore-OUR {
+        width: 60%;
+    }
+
+    .From-the-root .picture-p {
+        width: 100%;
+        font-size: 0.8rem;
+    }
+
+    /*FAQ*/
+    #FAQ .contect-left {
+        grid-row: 1/2;
+        grid-column: 1/-1;
+        margin: 0;
+        padding: 0;
+    }
+
+    .contect-right h2 {
+        font-size: 1rem;
+    }
+
+    #FAQ .contect-right {
+        grid-row: 2/3;
+        grid-column: 1/-1;
+        text-align: center;
+    }
+
+    #FAQ .contect-right p {
+        font-size: 0.8rem;
+        margin-bottom: 10px;
+    }
+
+    #FAQ .Looking-for h2 {
+        text-align: center;
+        margin: 0;
+        padding: 0;
+        margin-bottom: 20px !important;
+        font-size: 2rem;
+    }
+
+    .Looking-for p {
+        margin: 0;
+        padding: 0;
+        margin-bottom: 10px !important;
+        text-align: center;
+        width: 100%;
+        line-height: 20px;
+    }
+
+    #FAQ .Looking-for button {
+        margin-left: 110px;
+        width: 50%;
+    }
+
+    #CONTACT h2,
+    p {
+        margin-left: 0px;
+    }
+
+    form .abuot-left {
+        grid-column: 1/-1;
+        grid-row: 1/2;
+    }
+
+    form .about-right {
+        grid-column: 1/-1;
+        grid-row: 2/3;
+    }
+
+    /*footer*/
+    .footer-inner .Top-Products {
+        grid-row: 1/2;
+    }
+
+    .footer-inner .Newsletter {
+        grid-row: 2/3;
+        grid-column: 1/-1;
+    }
+
+    .footer-inner .Instragram-Feed {
+        grid-row: 3/4;
+        grid-column: 1/-1;
+    }
+
+    .footer-inner .Instragram-Feed img {
+        padding-right: 20px;
+    }
+
+    .end-footer .icon-left {
+        margin-left: 0;
+    }
+
+    /*element*/
+    .SAMPLE a {
+        text-decoration: none;
+        padding: 17px 20px !important;
+        font-size: 0.8rem;
+    }
+
+    .SAMPLE .border {
+        padding: 10px 10px !important;
+        border-radius: 35px !important;
+    }
+
+    .box1 .Info {
+        grid-row: 2/3;
+        grid-column: 1/2;
+    }
+
+    .box1 .Warning {
+        grid-row: 2/3;
+        grid-column: 2/3;
+    }
+
+    .box1 .Danger {
+        grid-row: 2/3;
+        grid-column: 3/4;
+    }
+
+    .box1 .Link {
+        grid-row: 2/3;
+        grid-column: 4/5;
+    }
+
+    .box1 .Disable {
+        grid-row: 3/4;
+        grid-column: 1/2;
+    }
+
+    .box2 .Info-empty {
+        grid-row: 4/5;
+        grid-column: 1/2;
+    }
+
+    .box2 .Warning-empty {
+        grid-row: 4/5;
+        grid-column: 2/3;
+    }
+
+    .box2 .Danger-empty {
+        grid-row: 4/5;
+        grid-column: 3/4;
+    }
+
+    .box2 .Link-empty {
+        grid-row: 4/5;
+        grid-column: 4/5;
+    }
+
+    .box2 .Disable-empty {
+        grid-row: 5/6;
+        grid-column: 1/2;
+    }
+
+    .box3 .Info {
+        grid-row: 7/8;
+        grid-column: 1/2;
+    }
+
+    .box3 .Warning {
+        grid-row: 7/8;
+        grid-column: 2/3;
+    }
+
+    .box3 .Danger {
+        grid-row: 7/8;
+        grid-column: 3/4;
+    }
+
+    .box3 .Link {
+        grid-row: 7/8;
+        grid-column: 4/5;
+    }
+
+    .box3 .Disable {
+        grid-row: 8/9;
+        grid-column: 1/2;
+    }
+
+    .box4 .Info-empty {
+        grid-row: 10/11;
+        grid-column: 1/2;
+    }
+
+    .box4 .Warning-empty {
+        grid-row: 10/11;
+        grid-column: 2/3;
+    }
+
+    .box4 .Danger-empty {
+        grid-row: 10/11;
+        grid-column: 3/4;
+    }
+
+    .box4 .Link-empty {
+        grid-row: 10/11;
+        grid-column: 4/5;
+    }
+
+    .box4 .Disable-empty {
+        grid-row: 11/12;
+        grid-column: 1/2;
+    }
+
+    .box5 .Info {
+        grid-row: 13/14;
+        grid-column: 1/2;
+    }
+
+    .box5 .Warning {
+        grid-row: 13/14;
+        grid-column: 2/3;
+    }
+
+    .box5 .Danger {
+        grid-row: 13/14;
+        grid-column: 3/4;
+    }
+
+    .box5 .Link {
+        grid-row: 13/14;
+        grid-column: 4/5;
+    }
+
+    .box5 .Disable {
+        grid-row: 14/15;
+        grid-column: 1/2;
+    }
+
+    .box6 .Info-empty {
+        grid-row: 16/17;
+        grid-column: 1/2;
+    }
+
+    .box6 .Warning-empty {
+        grid-row: 16/17;
+        grid-column: 2/3;
+    }
+
+    .box6 .Danger-empty {
+        grid-row: 16/17;
+        grid-column: 3/4;
+    }
+
+    .box6 .Link-empty {
+        grid-row: 16/17;
+        grid-column: 4/5;
+    }
+
+    .box6 .Disable-empty {
+        grid-row: 17/18;
+        grid-column: 1/2;
+    }
+
+    .box7 .Info {
+        grid-row: 19/20;
+        grid-column: 1/2;
+    }
+
+    .box7 .Warning {
+        grid-row: 19/20;
+        grid-column: 2/3;
+    }
+
+    .box7 .Danger {
+        grid-row: 19/20;
+        grid-column: 3/4;
+    }
+
+    .box8 .Info-empty {
+        grid-row: 22/23;
+        grid-column: 1/2;
+    }
+
+    .box8 .Warning-empty {
+        grid-row: 22/23;
+        grid-column: 2/3;
+    }
+
+    .box8 .Danger-empty {
+        grid-row: 22/23;
+        grid-column: 3/4;
+    }
+
+    .box9 .Medium {
+        grid-row: 24/25;
+        grid-column: 1/2;
+    }
+
+    .box9 .Small {
+        grid-row: 24/25;
+        grid-column: 2/3;
+    }
+
+    .box10 .Medium {
+        grid-row: 26/27;
+        grid-column: 1/2;
+    }
+
+    .box10 .Small {
+        grid-row: 26/27;
+        grid-column: 2/3;
+    }
+
+    /*about-pcture*/
+    .Left-Aligned p {
+        grid-row: 2/3 !important;
+        grid-column: 1/-1 !important;
+
+    }
+
+    .Left-Aligned img {
+        grid-row: 1/2 !important;
+    }
+
+    .Left-Aligned {
+        grid-gap: 3px;
+        padding-bottom: 50px;
+    }
+
+    .Right-Aligned {
+        grid-gap: 3px;
+    }
+
+    .Right-Aligned p {
+        grid-row: 1/2;
+        grid-column: 1/-1 !important;
+
+    }
+
+    .Right-Aligned img {
+        grid-row: 2/3 !important;
+        grid-column: 1/-1 !important;
+    }
+
+    .box-Definition .Definition1 {
+        grid-row: 1/2;
+        grid-column: 1/-1;
+    }
+
+    .box-Definition .Definition2 {
+        grid-row: 2/3;
+        grid-column: 1/-1;
+    }
+
+    .box-Definition .Definition3 {
+        grid-row: 3/4;
+        grid-column: 1/-1;
+    }
+
+    /*Image Gallery-->*/
+    .image-gallery .row-1 {
+        grid-template-columns: repeat(1, 1fr) !important;
+        grid-template-rows: repeat(3, 1fr);
+    }
+
+    .image-gallery .row-2 {
+        grid-template-columns: repeat(1, 1fr) !important;
+        grid-template-rows: repeat(2, 1fr);
+    }
+
+    .image-gallery .row-3 {
+        grid-template-columns: repeat(1, 1fr) !important;
+        grid-template-rows: repeat(3, 1fr);
+    }
+
+    /*three box*/
+    .three-box .box1 {
+        grid-row: 1/2 !important;
+        grid-column: 1/-1 !important;
+    }
+
+    .three-box .box2 {
+        grid-row: 2/3 !important;
+        grid-column: 1/-1 !important;
+
+    }
+
+    .three-box .box3 {
+        grid-row: 3/4 !important;
+        grid-column: 1/-1 !important;
+    }
+
+    /*list box*/
+    .box-form .form-right {
+        grid-column: 1/-1 !important;
+        grid-row: 2/3;
+    }
+
+    .box-form .form-left {
+        grid-column: 1/-1 !important;
+        grid-row: 1/2;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+/* for tablet*/
+@media (min-width:767px) and (max-width:1023px) {
+    .titre-respansive {
+        margin-left: 0px;
+        text-align: center;
+        margin-right: 0px;
+    }
+
+    .checkbtn {
+        display: block;
+    }
+
+    #check:checked~ul {
+        left: 0;
+    }
+
+    nav ul {
+        position: fixed;
+        width: 30%;
+        height: 1000vh;
+        background-color: var(--dark-color);
+        top: 50px;
+        left: -100%;
+        transition: all 0.3s;
+    }
+
+    nav ul li a span {
+        color: var(--light-color);
+    }
+
+    .dropdone div {
+        background-color: var(--dark-color);
+    }
+
+    nav ul li {
+        padding: 0;
+        display: block;
+        margin: 20px 0;
+        line-height: 30px;
+    }
+
+    /*main*/
+    /*HOME*/
+    .home-box .picture-about {
+        width: 100%;
+    }
+
+    .home-box .picture-p {
+        width: 100%;
+    }
+
+    .home-box .explore {
+        width: 40%;
+    }
+
+    /*.logo-wrap*/
+    .logo-wrap {
+        padding: 80px 80px;
+    }
+
+    .home-mark .mark-wiens,
+    p {
+        grid-row: 1/2;
+        border: 1px solid transparent;
+        grid-column: 1/2;
+        margin: 0;
+    }
+
+    .home-mark p {
+        margin-top: 30px;
+    }
+
+
+    .home-mark .inappropriate {
+        grid-row: 2/-1;
+        grid-column: 1/-1;
+    }
+
+    /*plan*/
+    .standard,
+    .Business,
+    .Ultimate {
+        grid-column: 1/-1;
+    }
+
+    .card-two,
+    .card-end {
+        text-align: center;
+    }
+
+    .card-end-button {
+        margin-left: 0;
+    }
+
+    /*about*/
+    .about-magnific div {
+        grid-column: 1/-1;
+        grid-row: 1/2;
+    }
+
+    .about-magnific .We-Believe {
+        font-size: 2rem;
+    }
+
+    .about-magnific img {
+        grid-row: 2/-1;
+        grid-column: 1/-1;
+    }
+
+    /*SERVICE*/
+    .box-six {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+    }
+
+    .From-the-root .picture-about {
+        font-size: 2rem;
+    }
+
+    .From-the-root .explore-OUR {
+        width: 40%;
+    }
+
+    .From-the-root .picture-p {
+        width: 100%;
+        font-size: 1rem;
+    }
+
+    /*FAQ*/
+    #FQA .about-person {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(1, 1fr);
+    }
+
+    #FAQ .contect-left {
+        margin: 0;
+    }
+
+    #FAQ .contect-right p {
+        font-size: 0.8rem;
+    }
+
+    #FAQ .Looking-for p {
+        margin-left: 110px;
+        padding-bottom: 10px;
+    }
+
+    #FAQ .Looking-for button {
+        margin-left: 250px;
+        width: 35%;
+    }
+
+    #CONTACT h2,
+    p {
+        margin-left: 0px;
+    }
+
+    form .abuot-left {
+        grid-column: 1/-1;
+        grid-row: 1/2;
+    }
+
+    form .about-right {
+        grid-column: 1/-1;
+        grid-row: 2/3;
+    }
+
+    /*footer*/
+    .footer-inner .Top-Products {
+        grid-row: 1/2;
+    }
+
+    .footer-inner .Newsletter {
+        grid-row: 2/3;
+        grid-column: 1/-1;
+    }
+
+    .footer-inner .Instragram-Feed {
+        grid-row: 3/4;
+        grid-column: 1/-1;
+    }
+
+    .footer-inner .Instragram-Feed img {
+        padding-right: 100px;
+    }
+
+    .end-footer i {
+        margin-top: 20px;
+    }
+
+    /*ELEMENT*/
+    .nav-light ul li span {
+        font-size: 0.5rem;
+    }
+
+    .The-Page h1 {
+        padding-top: 50px;
+        padding-bottom: 20px;
+    }
+
+    .text p {
+        font-size: 0.8rem;
+    }
+
+    .box1 .Danger {
+        grid-row: 2/3;
+        grid-column: 1/2;
+    }
+
+    .box1 .Link {
+        grid-row: 2/3;
+        grid-column: 2/3;
+    }
+
+    .box1 .Disable {
+        grid-row: 2/3;
+        grid-column: 3/4;
+    }
+
+    .box2 .Danger-empty {
+        grid-row: 4/5;
+        grid-column: 1/2;
+    }
+
+    .box2 .Link-empty {
+        grid-row: 4/5;
+        grid-column: 2/3;
+    }
+
+    .box2 .Disable-empty {
+        grid-row: 4/5;
+        grid-column: 3/4;
+    }
+
+    .box3 .Danger {
+        grid-row: 6/7;
+        grid-column: 1/2;
+    }
+
+    .box3 .Link {
+        grid-row: 6/7;
+        grid-column: 2/3;
+    }
+
+    .box3 .Disable {
+        grid-row: 6/7;
+        grid-column: 3/4;
+    }
+
+    .box4 .Danger-empty {
+        grid-row: 8/9;
+        grid-column: 1/2;
+    }
+
+    .box4 .Link-empty {
+        grid-row: 8/9;
+        grid-column: 2/3;
+    }
+
+    .box4 .Disable-empty {
+        grid-row: 8/9;
+        grid-column: 3/4;
+    }
+
+    .box5 .Danger {
+        grid-row: 10/11;
+        grid-column: 1/2;
+    }
+
+    .box5 .Link {
+        grid-row: 10/11;
+        grid-column: 2/3;
+    }
+
+    .box5 .Disable {
+        grid-row: 10/11;
+        grid-column: 3/4;
+    }
+
+    .box6 .Danger-empty {
+        grid-row: 12/13;
+        grid-column: 1/2;
+    }
+
+    .box6 .Link-empty {
+        grid-row: 12/13;
+        grid-column: 2/3;
+    }
+
+    .box6 .Disable-empty {
+        grid-row: 12/13;
+        grid-column: 3/4;
+    }
+
+    .box7 a {
+        height: 40px;
+        width: 150px;
+
+    }
+
+    .box7 .Danger {
+        grid-row: 14/15;
+        grid-column: 1/2;
+    }
+
+    .box7 .Link {
+        grid-row: 14/15;
+        grid-column: 2/3;
+    }
+
+    .box7 .Disable {
+        grid-row: 14/15;
+        grid-column: 3/4;
+    }
+
+    .box8 .Danger-empty {
+        grid-row: 16/17;
+        grid-column: 1/2;
+    }
+
+
+
+    /*about-pcture*/
+    .Left-Aligned p {
+        grid-row: 1/-1;
+        grid-column: 2/4 !important;
+
+    }
+
+    .Left-Aligned {
+        grid-gap: 3px;
+        padding-bottom: 50px;
+    }
+
+    .Right-Aligned {
+        grid-gap: 3px;
+    }
+
+    .Right-Aligned p {
+        grid-row: 1/-1;
+        grid-column: 1/2;
+
+    }
+
+    .Right-Aligned img {
+        grid-row: 1/-1;
+        grid-column: 3/4 !important;
+    }
+
+}
+
+
+/*for laptop*/
+@media (min-width: 768px) and (max-width :1024px) {
+
+    /*header*/
+    .purchase {
+        margin-left: 400px;
+    }
+
+    /*ELEMENT*/
+}
